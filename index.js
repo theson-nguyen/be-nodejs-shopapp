@@ -34,5 +34,18 @@ npx sequelize-cli model:generate --name Feedback --attributes product_id:integer
 
 npx sequelize-cli model:generate --name NewsDetail --attributes product_id:integer,news_id:integer
 
+yarn add express
+yarn add dotenv nodemon
+
 */
-console.log('Hello, this is online shop app backend')
+import express from "express";
+import dotenv from "dotenv";
+dotenv.config();
+const app = express();
+app.get("/", (req, res) => {
+  res.send("Hello World!");
+});
+
+app.listen(process.env.PORT, () => {
+  console.log(`Example app listening on port ${process.env.PORT}`);
+});
