@@ -41,11 +41,19 @@ yarn add dotenv nodemon
 import express from "express";
 import dotenv from "dotenv";
 dotenv.config();
+import { AppRoute } from "./AppRouter";
+
 const app = express();
+app.use(express.json());
+express.urlencoded({ extended: true });
+
+const port = process?.env?.PORT ?? 3000;
+
+AppRoute(app);
 app.get("/", (req, res) => {
   res.send("Hello World!");
 });
 
-app.listen(process.env.PORT, () => {
-  console.log(`Example app listening on port ${process.env.PORT}`);
+app.listen(port, () => {
+  console.log(`Example app listening on port ${port}`);
 });

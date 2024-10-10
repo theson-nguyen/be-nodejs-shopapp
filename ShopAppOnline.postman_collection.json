@@ -1,0 +1,360 @@
+{
+  "info": {
+    "_postman_id": "70e87d61-6457-4b68-8e7b-3acefe2d700c",
+    "name": "ShopAppOnline",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "33144409"
+  },
+  "item": [
+    {
+      "name": "Products",
+      "item": [
+        {
+          "name": "api/products",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/products",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "products"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/products/id",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/products/3",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "products", "3"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/products/id",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/products/3",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "products", "3"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/products/id",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/products/3",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "products", "3"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/products",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/products",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "products"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Orders",
+      "item": [
+        {
+          "name": "api/orders",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/orders",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "orders"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/orders/id",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/orders/3",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "orders", "3"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/orders/id",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/orders/3",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "orders", "3"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/orders/id",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/orders/3",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "orders", "3"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/orders",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/orders",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "orders"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Categories",
+      "item": [
+        {
+          "name": "api/categories",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/categories",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "categories"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/categories/id",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/categories/3",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "categories", "3"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/categories/id",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/categories/3",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "categories", "3"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/categories/id",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/categories/3",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "categories", "3"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/categories",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/categories",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "categories"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "OrderDetails",
+      "item": [
+        {
+          "name": "api/orderdetails",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/orderdetails",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "orderdetails"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/orderdetails/id",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/orderdetails/3",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "orderdetails", "3"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/orderdetails/id",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/orderdetails/3",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "orderdetails", "3"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/orderdetails/id",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/orderdetails/3",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "orderdetails", "3"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/orderdetails",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/orderdetails",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "orderdetails"]
+            }
+          },
+          "response": []
+        }
+      ]
+    },
+    {
+      "name": "Brands",
+      "item": [
+        {
+          "name": "api/brands",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/brands",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "brands"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/brands/id",
+          "request": {
+            "method": "GET",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/brands/3",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "brands", "3"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/brands/id",
+          "request": {
+            "method": "PUT",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/brands/3",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "brands", "3"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/brands/id",
+          "request": {
+            "method": "DELETE",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/brands/3",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "brands", "3"]
+            }
+          },
+          "response": []
+        },
+        {
+          "name": "api/brands",
+          "request": {
+            "method": "POST",
+            "header": [],
+            "url": {
+              "raw": "{{DOMAIN}}/api/brands",
+              "host": ["{{DOMAIN}}"],
+              "path": ["api", "brands"]
+            }
+          },
+          "response": []
+        }
+      ]
+    }
+  ]
+}
